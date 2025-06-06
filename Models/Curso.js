@@ -25,6 +25,7 @@ export default class Curso {
 
     const userMatriculado = {
       ...user,
+      status: "estudando",
       matriculado_at: new Date()
     }
 
